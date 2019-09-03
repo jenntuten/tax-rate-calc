@@ -1,0 +1,35 @@
+body {
+  background: #370c4d !important;
+}
+.first, .second, .third, .fourth, .fifth {
+  padding: 5px;
+}
+.fee, .after-fee, .nightly, .avg, .after-tax, .nightly-after-tax, .nights, .total, .taxes, .with-tax{
+  padding: 10px;
+}
+.container {
+  background: #370c4d;
+color: white;
+  width: 90%;
+  margin-top: 20px;
+}
+.nights, .fee {
+  display: grid;
+  width: 15%;
+  grid-gap: 5px;
+}
+.nightly, .taxes {
+  display: grid;
+  width: 15%;
+}
+.nights-button, .ntsBtn, .reset-Btn, .nightBtn, .resetBtn, .reset-button, .feeBtn, .resetFee, .fifth-reset-button, .fifth-nights-button  {
+  background: #00adbc;
+color: white;
+  border: none;
+  border-radius: 4px;
+}
+.container { display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+.first, .second, .third, .fourth, .fifth {
+  border: 2px solid white;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+    <title>Tax and Fee Calculations</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <strong>Calculate by Tax Percentage</strong>
+            <div class="nightly">Nightly rate before tax:
+                <input class="nightly-input"></input>
+            </div>
+            <div class="taxes">Tax percentage:
+                <input class="tax-input"></input>
+            </div>
+            <div class="nights"># of nights:
+                <input class="nights-input"></input>
+                <button class="nights-button">Submit</button>
+                <button class="reset-button">Reset</button>
+            </div>
+            <div class="total">
+                <strong>Total:</strong>
+                <span class="amount" </span>
+            </div>
+            <div class="with-tax">
+                <strong>Total after tax:</strong>
+                <span class="grand-total" </span>
+            </div>
+        </div>
+        <div class="second">
+            <strong>Calculate by Nightly Room/Tax</strong>
+            <div class="nightly">Nightly rate before tax:
+                <input class="nts-before"></input>
+            </div>
+            <div class="after-tax">Nightly rate after tax:
+                <br>
+                <input class="one-nt-tax"></input>
+            </div>
+            <div class="nights"># of nights:
+                <input class="number-nights"></input>
+                <button class="ntsBtn">Submit</button>
+                <button class="reset-Btn">Reset</button>
+            </div>
+            <div class="avg">
+                <strong>Total before tax:</strong>
+                <span class="grand-total-before" </span>
+            </div>
+            <div class="nightly-after-tax">
+                <strong>Total after tax:</strong>
+                <span class="grand-total-tax" </span>
+            </div>
+        </div>
+        <div class="third">
+            <strong>Calculate Average Nightly Rate</strong>
+            <div class="nightly">Total before tax:
+                <input class="nightly-rate"></input>
+            </div>
+            <div class="after-tax">Total after tax:
+                <br>
+                <input class="all-nts-tax"></input>
+            </div>
+            <div class="nights"># of nights:
+                <input class="night-input"></input>
+                <button class="nightBtn">Submit</button>
+                <button class="resetBtn">Reset</button>
+            </div>
+            <div class="avg">
+                <strong>Average nightly rate:</strong>
+                <span class="average" </span>
+            </div>
+            <div class="nightly-after-tax">
+                <strong>Average nightly after tax:</strong>
+                <span class="avg-after-tax" </span>
+            </div>
+        </div>
+        <div class="fourth">
+            <strong>Calculate Grand Total After Fee</strong>
+            <div class="nightly">Nightly Rate:
+                <input class="before-fee"></input>
+            </div>
+
+            <div class="fee">Fee:
+                <input class="fee-input"></input>
+                <button class="feeBtn">Submit</button>
+                <button class="resetFee">Reset</button>
+            </div>
+            <div class="after-fee">
+                <strong>Total After Fee:</strong>
+                <span class="amt-after-fee" </span>
+            </div>
+
+        </div>
+        <div class="fifth">
+            <strong>Calculate by Tax Percentage</strong>
+            <div class="nightly">Nightly total before tax:
+                <input class="fifth-col-total"></input>
+            </div>
+
+            <div class="nights">Tax percentage:
+                <input class="fifth-tax-input"></input>
+                <button class="fifth-nights-button">Submit</button>
+                <button class="fifth-reset-button">Reset</button>
+            </div>
+            <div class="with-tax">
+                <strong>Total after tax:</strong>
+                <span class="fifth-total" </span>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
